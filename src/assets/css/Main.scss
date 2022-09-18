@@ -1,5 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+$primaryColor:#f5f0e1;
+$secondaryColor:#1e3d59;
+$accentColor:#ff6e40;
+$text-color:#333;
+
 body{
     font-family: Roboto;
+    background-color: $primaryColor;
+    color:$text-color;
 }
+
+li{
+    list-style-type: none;
+  
+}
+
+.btn-primary{
+    text-transform: uppercase;
+    background-color: $accentColor;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+}
+
+.btn-secondary{
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid $accentColor;
+    border-radius: 5px;
+    padding: 12px 20px;
+    &:hover{
+      transform: scale(1.1);
+     transition-duration:0.2s;
+     transition-timing-function: ease-in-out;
+    }
+    
+ 
+}
+

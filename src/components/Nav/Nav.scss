@@ -1,9 +1,11 @@
+@import "../../assets/css/Main.scss";
+
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: teal;
+    background-color: $secondaryColor;
   }
   
   li {
