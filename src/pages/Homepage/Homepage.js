@@ -3,9 +3,10 @@ import Hero from '../../components/Hero/Hero'
 import Biography from '../../components/Biography/Biography'
 import Skills from '../../components/Skills/Skills'
 import Services from '../../components/Services/Services'
-import Projects from '../../components/Projects/Projects'
+import Projects from '../../components/Projects/ProjectsComponent'
 import Banner from '../../components/Banner/Banner'
-import Testimonials from '../../components/Testimonials/Testimonials'
+import Testimonials from '../../components/Testimonials/TestimonialsComponent'
+import Form from '../../components/Form/Form'
 import Footer from '../../components/Footer/Footer'
 
 const Homepage = () => {
@@ -18,6 +19,7 @@ const Homepage = () => {
     <Projects/>
     <Banner/>
     <Testimonials/>
+    <Form/>
     <Footer/>
   </div>
   )
