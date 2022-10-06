@@ -6,7 +6,7 @@ import Services from '../../components/Services/Services'
 import Projects from '../../components/Projects/ProjectsComponent'
 import Banner from '../../components/Banner/Banner'
 import Testimonials from '../../components/Testimonials/TestimonialsComponent'
-import Form from '../../components/Form/Form'
+import Form from '../../components/MultistepForm/Form'
 import Footer from '../../components/Footer/Footer'
 
 const Homepage = () => {

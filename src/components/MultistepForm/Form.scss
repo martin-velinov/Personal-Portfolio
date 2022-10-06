@@ -1,0 +1,122 @@
+@import "../../assets/css/Main.scss";
+
+
+.form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    .header {
+      flex: 20%;
+      display: grid;
+      place-items: center;
+    }
+    .body {
+      flex: 60%;
+    }
+    
+     .footer {
+      flex: 20%;
+      display: flex;
+      justify-content: center;
+      button {
+        border-radius: 5px;
+        width: 100px;
+        height: 40px;
+        background-color: $accentColor;
+        font-weight: bold;
+        color: white;
+        border: 0 none;
+        cursor: pointer;
+        padding: 10px 5px;
+        margin: 10px 5px;
+        margin: 5px;
+      }
+    }
+  }
+  
+  
+  .sign-up-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    input {
+      margin: 5px;
+      width: 200px;
+      height: 40px;
+      padding-left: 5px;
+      font-size: 15px;
+    }
+  }
+  
+   
+  .personal-info-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    input {
+      margin: 5px;
+      width: 200px;
+      height: 40px;
+      padding-left: 5px;
+      font-size: 15px;
+    }
+  }
+  
+  
+  .progressbar {
+    width: 400px;
+    height: 10px;
+    background-color: white;
+    margin-bottom: 50px;
+    div {
+      width: 33.3%;
+      height: 100%;
+      background-color: $accentColor;
+    }
+  }
+  
+  .other-info-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    input {
+      margin: 5px;
+      width: 200px;
+      height: 40px;
+      padding-left: 5px;
+      font-size: 15px;
+    }
+  }
+  
+  
+  input {
+    border: 1px solid $accentColor;
+    border-radius: 5px;
+    &:focus {
+      border: 2px solid $accentColor;
+    }
+  }
+  
+  
