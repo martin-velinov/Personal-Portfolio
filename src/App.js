@@ -6,6 +6,7 @@ import Projects from './pages/Projects/Projects'
 import Blog from './pages/Blog/Blog'
 import Contact from './pages/Contact/Contact'
 import Nav from './components/Nav/Nav'
+import Footer from './components/Footer/Footer'
 import './assets/css/Main.css'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path='/blog' element={<Blog/>}/> 
         <Route path='/contact' element={<Contact/>}/> 
       </Routes>
+      <Footer/>
     </div>
   );
 }

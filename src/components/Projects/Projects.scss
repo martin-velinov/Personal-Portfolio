@@ -1,1 +1,6 @@
 @import "../../assets/css/Main.scss";
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
