@@ -2,9 +2,18 @@
 
 .skills{
     display: grid;
+    grid-gap:50px;
     grid-template-columns: 1fr 1fr 1fr;
 }
 .skill img{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 60px;
+}
+
+.skill p{
+    background-color:#e0dac7;
+    color:$text-color;
+    padding: 10px;
+    width: 20%;
+    font-weight: bold;
 }

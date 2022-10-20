@@ -32,7 +32,7 @@ const Skills = () => {
           <img src={tailwind} alt="" />
         </div>
         <div className="skill">
-          <p>js</p>
+          <p>javascript</p>
           <img src={js} alt="" />
         </div>
         <div className="skill">
@@ -44,7 +44,7 @@ const Skills = () => {
           <img src={node} alt="" />
         </div>
         <div className="skill">
-          <p>mongo</p>
+          <p>mongoDB</p>
           <img src={mongo} alt="" />
         </div>
       </div>

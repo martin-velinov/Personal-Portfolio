@@ -19,7 +19,7 @@ export default function BasicMenu() {
 
 
   return (
-    <div>
+    <div className='navbar'>
       <ul>
       <li><Link to="/"><Button id="basic-button">Home</Button></Link></li>
       <li>
@@ -80,6 +80,14 @@ export default function BasicMenu() {
           id="basic-button">
           Blog
         </Button>
+        </Link>
+      </li>
+      <li>
+        <Link to="/resume">
+            <Button
+              id="basic-button">
+              Resume
+            </Button>
         </Link>
       </li>
       <li>

@@ -20,7 +20,6 @@ const Homepage = () => {
     <Banner/>
     <Testimonials/>
     <Form/>
-    <Footer/>
   </div>
   )
 }

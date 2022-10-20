@@ -65,31 +65,35 @@ export const info = {
     portfolio: [ 
         {
             title: "MV Solutions",
+            image:mvsolution,
             live: "https://mv-solutions.netlify.app/",
             source: "https://github.com/martin-velinov/TailwindCSS-Landing-Page",
-            stack:"html, tailwindCSS, Javascript",
-            image:mvsolution
+            stack:"html, tailwindCSS, Javascript"
+            
         },
         {
             title: "Victoria Hotels",
+            image:victoria,
             live: "https://victoria-hotels.netlify.app/",
             source: "https://github.com/martin-velinov/Bootstrap-Website",
-            stack:"html, bootstrap, Javascript",
-            image:victoria
+            stack:"html, bootstrap, Javascript"
+            
         },
         {
             title: "Vehicle Informer",
+            image:vehicle,
             live: "https://vehicleinformer.onrender.com/",
             source: "https://github.com/martin-velinov/VehicleInformer-NodeApi",
-            stack:"node.js, express.js, mongodb",
-            image:vehicle
+            stack:"node.js, express.js, mongodb"
+            
         },
         {
             title: "Restaurant Landing Pag",
+            image:restaurant,
             live: "https://martin-velinov.github.io/Landing-page-HTML-CSS-JS/",
             source: "https://github.com/martin-velinov/Landing-page-HTML-CSS-JS",
-            stack:"html, CSS, Javascript",
-            image:restaurant
+            stack:"html, CSS, Javascript"
+            
         }
         
         

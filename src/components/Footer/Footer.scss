@@ -1,6 +1,10 @@
 @import "../../assets/css/Main.scss";
 
+
+.footer-wrapper{
+    margin-top: 50px ;
+}
 .page-footer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
 }

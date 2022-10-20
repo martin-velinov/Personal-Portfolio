@@ -3,7 +3,10 @@ import './Banner.css'
 
 const Banner = () => {
   return (
-    <div>Banner</div>
+    <div className='banner'>
+      <p>Download my Resume/CV</p>
+      <button className='btn-primary'>Download</button>
+    </div>
   )
 }
 

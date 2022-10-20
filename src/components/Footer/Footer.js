@@ -3,32 +3,28 @@ import './Footer.css'
 
 const Footer = () => {
   return (
-    <footer class="footer-wrapper reveal">
-        <div class="footer-bottom">
-            <div class="page-footer">
-              <div class="footer-col" >
-                <img class="logo" src="img/logo.png" alt="" />
-                <div class="footer-social">
+    <footer className="footer-wrapper ">
+        <div className="footer-bottom">
+            <div className="page-footer">
+
+              <div className="footer-col" >
+                <div className="footer-social">
                   <li>
-                    <i class="fab fa-facebook-f"></i>
+                    <i className="fab fa-instagram"></i>
                   </li>
                   <li>
-                    <i class="fab fa-twitter"></i>
-                  </li>
-                  <li>
-                    <i class="fab fa-instagram"></i>
-                  </li>
-                  <li>
-                    <i class="fab fa-youtube"></i>
+                    <i className='fab fa-github'></i>
                   </li>
                   
                 </div>
-                <div class="footer-a">
-                    <p>+355 123-356 02</p>
-                    <p>2880 Broadway, New York</p>
+              
+
+                <div className="footer-a">
+                    <p>martin.velinov24@hotmail.com</p>
+                    <p>Skopje, Macedonia</p>
                 </div>
               </div>
-              <div class="footer-col">
+              <div className="footer-col">
                 
                 <ul>
                   <li>Home</li>
@@ -38,7 +34,7 @@ const Footer = () => {
                   <li>Contact me</li>
                 </ul>
               </div>
-              <div class="footer-col">
+              <div className="footer-col">
                 <h4>About me</h4>
                 <ul>
                   <li>Biography</li>
@@ -49,7 +45,7 @@ const Footer = () => {
                 </ul>
               </div>
     
-              <div class="footer-col">
+              <div className="footer-col">
                 <h4>Activities</h4>
                 <ul>
                   <li>Charities</li>
@@ -61,16 +57,12 @@ const Footer = () => {
               </div>
             </div>
     
-            <div class="ending">
-              <div class="copy">
+            <div className="ending">
+              <div className="copy">
                   <p>© 2022.Martin's Portfolio All Rights Reserved.</p>
                     
                 </div>
-              <div class="links">
-                <p>Terms of service</p>
-                <p>Privacy policy</p>
-                <p>Security</p>
-              </div>
+              
             </div>
           </div>
     </footer>

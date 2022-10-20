@@ -4,13 +4,10 @@ import './Biography.css'
 const Biography = () => {
   return (
     <div className='bio-wrapper'>
-      <span>Martin Velinov</span>
-      <h3>FullStack JavaScript Developer</h3>
-      <p>I'm a web developer with passion for making beautiful UIs and
-        taking bussinesses to the next level
-      </p>
-      <button className='btn-primary'>See work</button>
-      <button className='btn-secondary'>Hire me</button>
+      <h3>Education</h3>
+      <p>Full-stack JavaScript developer - Semos Academy 2022</p>
+      <h3>Work Experience</h3>
+      <p>Upwork Freelancer 2020-2022</p>
     </div>
   )
 }

@@ -1,6 +1,7 @@
-export default {
+const constants ={
     GET_TESTIMONIALS_REQUEST: "GET_TESTIMONIALS_REQUEST",
     GET_TESTIMONIALS_SUCCESS: "GET_TESTIMONIALS_SUCCESS",
     GET_TESTIMONIALS_FAIL: "GET_TESTIMONIALS_FAIL",
     
 }
+export default constants

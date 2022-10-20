@@ -1,7 +1,7 @@
 import React from 'react';
 
 
- const TestimonialsComponent = ({listOfTestimonials,error,}) => {
+ const TestimonialsComponent = ({listOfTestimonials}) => {
 
     return(
         <div id="testimonials-component">
@@ -16,16 +16,18 @@ import React from 'react';
                     </tr>
                 </thead>
                 <tbody>
-                    {listOfTestimonials.map(testimonial=>{
+                    {/* {listOfTestimonials?.map((testimonial,id)=>{
                         return(
-                            <tr key={testimonial.name}>
+                            <tr key={id}>
+                                <td>{testimonial.id}</td>
+                                <td>{testimonial.name}</td>
                                 <td>{testimonial.location}</td>
                                 <td>{testimonial.designation}</td>
                                 <td>{testimonial.avatar}</td>
                                 <td>{testimonial.message}</td>
                             </tr>
                         )
-                    })}
+                    })} */}
                 </tbody>
             </table>
         </div>
