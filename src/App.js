@@ -8,6 +8,7 @@ import Resume from './pages/Resume/Resume'
 import Contact from './pages/Contact/Contact'
 import Nav from './components/Nav/Nav'
 import Footer from './components/Footer/Footer'
+import NotFound  from './pages/404 Not Found/NotFound';
 import './assets/css/Main.css'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path='/blog' element={<Blog/>}/> 
         <Route path='/resume' element={<Resume/>}/> 
         <Route path='/contact' element={<Contact/>}/> 
+        <Route path='*' element={<NotFound />}/>
       </Routes>
       <Footer/>
     </div>

@@ -4,8 +4,9 @@ import './Nav.css'
 import Button from '@mui/material/Button';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Switch from '@mui/material/Switch';
+
+
+
 
 export default function BasicMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -17,7 +18,9 @@ export default function BasicMenu() {
     setAnchorEl(null);
   };
 
+ 
 
+  
   return (
     <div className='navbar'>
       <ul>
@@ -98,7 +101,10 @@ export default function BasicMenu() {
             </Button>
         </Link>
       </li>
-      <li> <FormControlLabel control={<Switch  />} label="Dark Theme" /></li>
+      <li>
+      
+      </li>
+      
     </ul>
       
    
@@ -106,3 +112,4 @@ export default function BasicMenu() {
     
   );
 }
+

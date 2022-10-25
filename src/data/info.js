@@ -101,19 +101,29 @@ export const info = {
     blogSection : {
         title: "Blogs",
         subtitle:
-          "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-        displayMediumBlogs: "true", 
+          "With Love for Developing cool stuff, I love to write and teach others what I have learned.",
+        
         blogs: [
 
           {
-            title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+            title: "MERN stack from the Beginning",
             description:
-              "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+              "Do you want to lean the MERN stack? then follow this quick quide"
           },
           {
             title: "Why REACT is The Best?",
             description:
               "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+          },
+          {
+            title: "No-relational databases, and why you might like them",
+            description:
+              "You've might already heard about a database named MongoDD that's very developer friendly, especially javascript developers.."
+          },
+          {
+            title: "CSS is not hard",
+            description:
+              "Countrary to popular belief, CSS is not hard to learn well, you just need to have patience"
           }
         ],
         display: true 
