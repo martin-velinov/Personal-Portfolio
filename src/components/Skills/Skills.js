@@ -8,7 +8,7 @@ import js from '../../assets/img/js.png'
 import react from '../../assets/img/react.png'
 import node from '../../assets/img/node.png'
 import mongo from '../../assets/img/mongo.png'
-
+import sql from '../../assets/img/sql.png'
 
 const Skills = () => {
   return (
@@ -16,36 +16,40 @@ const Skills = () => {
       <h2>My skills include</h2>
       <div className="skills">
         <div className="skill">
-          <p>html</p>
+          <p>HTML</p>
           <img src={html} alt="" />
         </div>
         <div className="skill">
-          <p>css</p>
+          <p>CSS</p>
           <img src={css} alt="" />
         </div>
         <div className="skill">
-          <p>bootstrap</p>
+          <p>Bootstrap</p>
           <img src={bootstrap} alt="" />
         </div>
         <div className="skill">
-          <p>tailwind</p>
+          <p>TailwindCSS</p>
           <img src={tailwind} alt="" />
         </div>
         <div className="skill">
-          <p>javascript</p>
+          <p>JavaScript</p>
           <img src={js} alt="" />
         </div>
         <div className="skill">
-          <p>react</p>
+          <p>React</p>
           <img src={react} alt="" />
         </div>
         <div className="skill">
-          <p>node</p>
+          <p>Node</p>
           <img src={node} alt="" />
         </div>
         <div className="skill">
-          <p>mongoDB</p>
+          <p>MongoDB</p>
           <img src={mongo} alt="" />
+        </div>
+        <div className="skill">
+          <p>MySQL</p>
+          <img src={sql} alt="" />
         </div>
       </div>
     </div>

@@ -2,64 +2,79 @@ import React from 'react'
 import './Footer.css'
 
 const Footer = () => {
+  const insta= "https://www.instagram.com/m.velinov/"
+  const github ="https://github.com/martin-velinov"
+  const behance ="https://www.behance.net/martinvelinov"
+  const linkedin = "https://www.linkedin.com/in/martin-velinov-796815162/"
   return (
+    
     <footer className="footer-wrapper ">
         <div className="footer-bottom">
             <div className="page-footer">
 
               <div className="footer-col" >
-                <div className="footer-social">
-                  <li>
-                    <i className="fab fa-instagram"></i>
-                  </li>
-                  <li>
-                    <i className='fab fa-github'></i>
-                  </li>
-                  
-                </div>
+                
               
-
                 <div className="footer-a">
                     <p>martin.velinov24@hotmail.com</p>
                     <p>Skopje, Macedonia</p>
+                    <div className="social">
+                    <li>
+                      <a href={insta}  target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
+                    
+                    </li>
+                  <li>
+                    <a href={github}  target="_blank" rel="noopener noreferrer"><i className='fab fa-github'></i></a>
+                  </li>
+                  <li>
+                 <a href={behance} target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-behance"></i></a>
+                  </li>
+                  <li>
+                  <a href={linkedin} target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                  </li>
+                    </div>
                 </div>
               </div>
+
               <div className="footer-col">
                 
-                <ul>
+                <ul className='list'>
+                <h4>Sitemap</h4>
                   <li>Home</li>
-                  <li>About me</li>
                   <li>Skills</li>
-                  <li>Testimonials</li>
+                  <li>Services</li>
+                  <li>Projects</li>
                   <li>Contact me</li>
                 </ul>
               </div>
+
               <div className="footer-col">
                 <h4>About me</h4>
-                <ul>
+                <ul className='list'>
                   <li>Biography</li>
                   <li>Achievements</li>
-                  <li>FAQs</li>
-                  <li>Affiliets</li>
-                  <li>Community</li>
+                  <li>Certificates</li>
+                  <li>Work Experience</li>
+                  <li>Interests</li>
                 </ul>
               </div>
     
               <div className="footer-col">
+                
+                <ul className='list'>
                 <h4>Activities</h4>
-                <ul>
-                  <li>Charities</li>
+                  <li>Hackatons</li>
                   <li>Events</li>
                   <li>Giveaway</li>
                   <li>Team-building</li>
-                  <li>World Fair</li>
+                  <li>Webinars</li>
                 </ul>
               </div>
             </div>
     
             <div className="ending">
               <div className="copy">
-                  <p>© 2022.Martin's Portfolio All Rights Reserved.</p>
+                  <p>© 2022 All Rights Reserved.</p>
                     
                 </div>
               

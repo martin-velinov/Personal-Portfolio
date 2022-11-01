@@ -6,5 +6,30 @@
 }
 .page-footer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+}
+
+.list{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    i{
+        font-size: 20px;
+    }
+}
+
+.copy{
+    margin-top: 50px;
+}
+
+.footer-col a{
+    color:#333;
+    &:hover{
+        background-color: $accentColor !important;
+    }
 }

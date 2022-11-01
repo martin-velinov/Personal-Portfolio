@@ -9,6 +9,7 @@ function PortfolioBlock(props) {
         
          <h2>{title}</h2>
          <Box className="project-img"component={'img'} src={image} alt={'mockup'}/>
+         <p>{stack}</p>
          <Box className={'portfolio'} display={'flex'} flexDirection={'row'} gap={'0.5rem'}
               alignItems={'center'} fontSize={'1rem'} py={'2rem'}>
             <Box p={1} border={'1px solid black'} borderRadius={'5px'}>
@@ -16,9 +17,6 @@ function PortfolioBlock(props) {
             </Box>
             <Box p={1} border={'1px solid black'} borderRadius={'5px'}>
                <IconLink link={source} title={'Source Code'} icon={'fa fa-code'}/>
-            </Box>
-            <Box p={1} border={'1px solid black'} borderRadius={'5px'}>
-               <IconLink link={stack} title={'Tech Stack'} icon={'fa fa-code'}/>
             </Box>
          </Box>
       </Box>

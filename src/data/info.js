@@ -12,9 +12,9 @@ export const info = {
 
     miniBio: 
         {
-            name: 'Martin Velinov',
-            position: 'FullStack JavaScript Developer',
-            desc:"I'm a web developer with passion for making beautiful UIs and taking bussinesses to the next level"
+            title: 'I help bussiness reach their next level through building exquisite web solutions',
+            p1: 'Having online presence in todays age is a must, let me help you scale you bussiness with outstanding web app.',
+            p2:"I'm a web developer with passion for making beautiful UIs and giving awesome products the audience they deserve."
         },
         
     
@@ -68,7 +68,7 @@ export const info = {
             image:mvsolution,
             live: "https://mv-solutions.netlify.app/",
             source: "https://github.com/martin-velinov/TailwindCSS-Landing-Page",
-            stack:"html, tailwindCSS, Javascript"
+            stack:"HTML, TailwindCSS, Javascript"
             
         },
         {
@@ -76,7 +76,7 @@ export const info = {
             image:victoria,
             live: "https://victoria-hotels.netlify.app/",
             source: "https://github.com/martin-velinov/Bootstrap-Website",
-            stack:"html, bootstrap, Javascript"
+            stack:"HTML, Bootstrap, Javascript"
             
         },
         {
@@ -84,7 +84,7 @@ export const info = {
             image:vehicle,
             live: "https://vehicleinformer.onrender.com/",
             source: "https://github.com/martin-velinov/VehicleInformer-NodeApi",
-            stack:"node.js, express.js, mongodb"
+            stack:"Node.js, Express.js, Mongodb"
             
         },
         {
@@ -92,7 +92,7 @@ export const info = {
             image:restaurant,
             live: "https://martin-velinov.github.io/Landing-page-HTML-CSS-JS/",
             source: "https://github.com/martin-velinov/Landing-page-HTML-CSS-JS",
-            stack:"html, CSS, Javascript"
+            stack:"HTML, CSS, Javascript"
             
         }
         
