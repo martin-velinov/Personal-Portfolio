@@ -32,7 +32,7 @@ function Form() {
     <div className="form">
       <div className="progressbar">
         <div
-          style={{ width: page === 0 ? "33.3%" : page == 1 ? "66.6%" : "100%" }}
+          style={{ width: page === 0 ? "33.3%" : page === 1 ? "66.6%" : "100%" }}
         ></div>
       </div>
       <div className="form-container">
@@ -43,7 +43,7 @@ function Form() {
         <div className="footer">
           <button
           className="btn-primary"
-            disabled={page == 0}
+            disabled={page === 0}
             onClick={() => {
               setPage((currPage) => currPage - 1);
             }}
