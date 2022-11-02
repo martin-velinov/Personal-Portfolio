@@ -5,11 +5,15 @@
     margin: 100px;
 }
 .services{
+    margin-top: 50px;
     display: flex;
     justify-content: space-between;
     i{
         font-size: 50px;
         color:$accentColor;
+    }
+    a{
+        text-decoration: none;
     }
 }
 
@@ -17,5 +21,9 @@
     border:1px solid gray;
     border-radius: 5px;
     padding: 50px;
-    
+    &:hover{
+        transform: scale(1.1);
+       transition-duration:0.2s;
+       transition-timing-function: ease-in-out;
+      }
 }

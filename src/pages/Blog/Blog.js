@@ -22,7 +22,8 @@ export default function Blog() {
                   key={i}
                   blog={{
                     title: blog.title,
-                    description: blog.description
+                    description: blog.description,
+                    img:blog.img
                   }}
                 />
               );

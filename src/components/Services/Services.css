@@ -18,6 +18,15 @@ li {
   padding: 12px 20px;
 }
 
+.btn-primary:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
 .btn-secondary {
   text-transform: uppercase;
   background-color: transparent;
@@ -41,6 +50,7 @@ li {
 }
 
 .services {
+  margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,9 +64,22 @@ li {
   color: #ff6e40;
 }
 
+.services a {
+  text-decoration: none;
+}
+
 .service {
   border: 1px solid gray;
   border-radius: 5px;
   padding: 50px;
+}
+
+.service:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
 }
 /*# sourceMappingURL=Services.css.map */

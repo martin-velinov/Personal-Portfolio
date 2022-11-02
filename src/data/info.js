@@ -2,6 +2,10 @@ import mvsolution from '../assets/img/tailwindp.png'
 import victoria from '../assets/img/bootstrapp.png'
 import vehicle from '../assets/img/nodep.png'
 import restaurant from '../assets/img/javascript.png'
+import react from '../assets/img/react.png'
+import mongo from '../assets/img/mongo.png'
+import mern from '../assets/img/mern.png'
+import cssb from '../assets/img/css-b.png'
 
 
 export const info = {
@@ -108,22 +112,26 @@ export const info = {
           {
             title: "MERN stack from the Beginning",
             description:
-              "Do you want to lean the MERN stack? then follow this quick quide"
+              "Do you want to lean the MERN stack? then follow this quick quide",
+              img:mern
           },
           {
             title: "Why REACT is The Best?",
             description:
-              "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+              "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies.",
+              img:react
           },
           {
             title: "No-relational databases, and why you might like them",
             description:
-              "You've might already heard about a database named MongoDD that's very developer friendly, especially javascript developers.."
+              "You've might already heard about a database named MongoDD that's very developer friendly, especially javascript developers..",
+              img:mongo
           },
           {
             title: "CSS is not hard",
             description:
-              "Countrary to popular belief, CSS is not hard to learn well, you just need to have patience"
+              "Countrary to popular belief, CSS is not hard to learn well, you just need to have patience",
+              img:cssb
           }
         ],
         display: true 

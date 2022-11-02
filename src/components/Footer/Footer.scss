@@ -7,12 +7,14 @@
 .page-footer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
+    
 }
 
 .list{
     background-color: transparent;
     display: flex;
     flex-direction: column;
+   
 }
 
 .social {

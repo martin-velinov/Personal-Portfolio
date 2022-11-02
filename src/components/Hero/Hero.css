@@ -1,4 +1,4 @@
-
+@import url(f:\DESKTOP\Personal-Portfolio\src\assets\css\Main.css);
 .hero-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -17,6 +17,10 @@
   width: 50%;
   margin-top: 100px;
   margin-left: 100px;
+}
+
+.cta a {
+  text-decoration: none;
 }
 
 .cta p, .cta h1 {

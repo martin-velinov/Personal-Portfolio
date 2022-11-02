@@ -5,5 +5,18 @@ h2{
 }
 
 .blog-main-div{
+    margin-left: 300px;
+}
+
+.blog{
+    margin: 70px 0px;
+    width: 40%;
+    line-height: 1.5rem;
+    img{
+        height: 150px;
+        width: 250px;
+    }
+}
+.blog p{
     text-align: left;
 }

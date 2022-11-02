@@ -7,6 +7,9 @@ import {Box, Grid} from "@mui/material";
 
 const Projects = () => {
   return (
+    <>
+    <h1>My Projects</h1>
+    <p>My personal projects built in the last year</p>
     <Box>
     <Grid container display={'flex'} justifyContent={'center'}>
         {info.portfolio.map((project, index) => (
@@ -15,7 +18,8 @@ const Projects = () => {
            </Grid>
         ))}
     </Grid>
-</Box>
+    </Box>
+    </>
   )
 }
 

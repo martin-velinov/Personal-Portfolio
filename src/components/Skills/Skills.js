@@ -9,12 +9,15 @@ import react from '../../assets/img/react.png'
 import node from '../../assets/img/node.png'
 import mongo from '../../assets/img/mongo.png'
 import sql from '../../assets/img/sql.png'
+import express from '../../assets/img/express.png'
 
 const Skills = () => {
   return (
     <div className='skills-wrapper'>
       <h2>My skills include</h2>
+      <p>Skills that I've build during the academy and working on projects</p>
       <div className="skills">
+        <div className='skill-w'>
         <div className="skill">
           <p>HTML</p>
           <img src={html} alt="" />
@@ -35,13 +38,20 @@ const Skills = () => {
           <p>JavaScript</p>
           <img src={js} alt="" />
         </div>
+        </div>
+       <div className='skill-w'>
+       
         <div className="skill">
-          <p>React</p>
+          <p>React.js</p>
           <img src={react} alt="" />
         </div>
         <div className="skill">
-          <p>Node</p>
+          <p>Node.js</p>
           <img src={node} alt="" />
+        </div>
+        <div className="skill">
+          <p>Express.js</p>
+          <img src={express} alt="" />
         </div>
         <div className="skill">
           <p>MongoDB</p>
@@ -51,6 +61,7 @@ const Skills = () => {
           <p>MySQL</p>
           <img src={sql} alt="" />
         </div>
+       </div>
       </div>
     </div>
   )

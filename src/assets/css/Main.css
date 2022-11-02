@@ -18,6 +18,15 @@ li {
   padding: 12px 20px;
 }
 
+.btn-primary:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+}
+
 .btn-secondary {
   text-transform: uppercase;
   background-color: transparent;

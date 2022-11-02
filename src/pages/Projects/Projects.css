@@ -1,2 +1,10 @@
-
+@import url(f:\DESKTOP\Personal-Portfolio\src\assets\css\Main.css);
+.projects-w {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=Projects.css.map */
