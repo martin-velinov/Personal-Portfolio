@@ -2,7 +2,7 @@ import React from 'react'
 import PortfolioBlock from "./PortfolioBlock";
 import './Projects.css'
 import {info} from '../../data/info'
-import {Box, Grid} from "@mui/material";
+import {Box,} from "@mui/material";
 
 
 const Projects = () => {
@@ -11,13 +11,13 @@ const Projects = () => {
     <h1>My Projects</h1>
     <p>My personal projects built in the last year</p>
     <Box>
-    <Grid container display={'flex'} justifyContent={'center'}>
+    <div className='projects'>
         {info.portfolio.map((project, index) => (
-           <Grid item xs={12} md={6} key={index}>
+           <div >
                <PortfolioBlock image={project.image} live={project.live} source={project.source} title={project.title} stack={project.stack} />
-           </Grid>
+           </div>
         ))}
-    </Grid>
+    </div>
     </Box>
     </>
   )

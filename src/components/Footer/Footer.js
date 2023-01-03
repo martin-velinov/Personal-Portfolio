@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css'
+import logo from '../../assets/img/logo.png'
 
 const Footer = () => {
   const insta= "https://www.instagram.com/m.velinov/"
@@ -13,11 +14,8 @@ const Footer = () => {
             <div className="page-footer">
 
               <div className="footer-col" >
-                
-              
                 <div className="footer-a">
-                    <p>martin.velinov24@hotmail.com</p>
-                    <p>Skopje, Macedonia</p>
+                <img src={logo} alt="logo" className='logo'/>
                     <div className="social">
                     <li>
                       <a href={insta}  target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
@@ -74,7 +72,7 @@ const Footer = () => {
     
             <div className="ending">
               <div className="copy">
-                  <p>© 2022 All Rights Reserved.</p>
+                  <p>© 2023 All Rights Reserved.</p>
                     
                 </div>
               

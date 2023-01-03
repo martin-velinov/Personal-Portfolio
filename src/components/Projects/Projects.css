@@ -1,17 +1,32 @@
 
 .projects {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-img {
-  width: 50%;
+  width: 80%;
   height: 50%;
 }
 
 h1, p {
   text-align: center;
+}
+
+@media screen and (min-width: 780px) {
+  .projects {
+    display: grid;
+  grid-template-columns: 1fr 1fr ;
+  }
+}
+@media screen and (min-width: 1180px) {
+  .projects {
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  }
+  .project-img {
+    width: 70%;
+    height: 50%;
+  }
 }
 /*# sourceMappingURL=Projects.css.map */

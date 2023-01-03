@@ -17,7 +17,7 @@ const Skills = () => {
       <h2>My skills include</h2>
       <p>Skills that I've build during the academy and working on projects</p>
       <div className="skills">
-        <div className='skill-w'>
+
         <div className="skill">
           <p>HTML</p>
           <img src={html} alt="" />
@@ -38,9 +38,7 @@ const Skills = () => {
           <p>JavaScript</p>
           <img src={js} alt="" />
         </div>
-        </div>
-       <div className='skill-w'>
-       
+
         <div className="skill">
           <p>React.js</p>
           <img src={react} alt="" />
@@ -62,7 +60,6 @@ const Skills = () => {
           <img src={sql} alt="" />
         </div>
        </div>
-      </div>
     </div>
   )
 }

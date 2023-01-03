@@ -41,9 +41,8 @@ li {
 
 .page-footer {
   display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: column;
 }
 
 .list {
@@ -79,5 +78,20 @@ li {
 
 .footer-col a:hover {
   background-color: #ff6e40 !important;
+}
+
+@media screen and (min-width: 780px) {
+  .page-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+}
+
+@media screen and (min-width: 1080px) {
+  .page-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
 }
 /*# sourceMappingURL=Footer.css.map */

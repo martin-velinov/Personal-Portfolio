@@ -46,7 +46,6 @@ li {
 
 .services-wrapper {
   text-align: center;
-  margin: 100px;
 }
 
 .services {
@@ -54,9 +53,7 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: column;
 }
 
 .services i {
@@ -69,9 +66,10 @@ li {
 }
 
 .service {
+  margin: 20px;
   border: 1px solid gray;
   border-radius: 5px;
-  padding: 50px;
+  padding: 30px;
 }
 
 .service:hover {
@@ -81,5 +79,23 @@ li {
           transition-duration: 0.2s;
   -webkit-transition-timing-function: ease-in-out;
           transition-timing-function: ease-in-out;
+}
+
+@media screen and (min-width: 780px) {
+  .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+}
+
+@media screen and (min-width: 1080px) {
+  .services-wrapper {
+    margin: 0px 100px;
+  }
+  .services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 /*# sourceMappingURL=Services.css.map */

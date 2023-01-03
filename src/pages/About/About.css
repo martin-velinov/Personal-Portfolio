@@ -1,4 +1,7 @@
-
+.about{
+  display: flex;
+  flex-direction: column;
+}
 .about img {
   width: 300px;
   height: 350px;
@@ -6,7 +9,7 @@
 }
 
 .about-info {
-  width: 50%;
+  width: 90%;
   line-height: 2rem;
 }
 
@@ -19,11 +22,22 @@
   color: #f2f2f2;
 }
 
-.about {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+@media screen and (min-width: 780px) {
+  .about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .about-info {
+    width: 60%;
+  }
 }
+
+@media screen and (min-width: 1080px) {
+  .about-wrapper{
+    width: 80%;
+    margin-left: 100px;
+  }
+}
+
 /*# sourceMappingURL=About.css.map */

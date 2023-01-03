@@ -3,7 +3,7 @@ body {
   font-family: Roboto;
   background-color: #f5f0e1;
   color: #333;
-  margin: 0px 70px;
+
 }
 
 li {
@@ -44,18 +44,18 @@ li {
           transition-timing-function: ease-in-out;
 }
 
-.skills {
-  margin-left: 50px;
-}
 
-.skill-w {
+.skills {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr  ;
+  grid-gap: 10px;
   margin: 50px;
+}
+
+.skill {
+  margin: 20px;
 }
 
 .skill img {
@@ -79,5 +79,24 @@ li {
           transition-duration: 0.2s;
   -webkit-transition-timing-function: ease-in-out;
           transition-timing-function: ease-in-out;
+}
+
+@media screen and (min-width: 780px) {
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .skills-wrapper{
+    margin: 0px 100px;
+  }
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+
+  }
 }
 /*# sourceMappingURL=Skills.css.map */

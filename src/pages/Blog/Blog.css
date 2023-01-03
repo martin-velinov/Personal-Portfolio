@@ -4,21 +4,38 @@ h2 {
 }
 
 .blog-main-div {
-  margin-left: 300px;
+  margin-left: 0px;
 }
 
 .blog {
   margin: 70px 0px;
-  width: 40%;
+  width: 90%;
   line-height: 1.5rem;
 }
 
 .blog img {
   height: 150px;
-  width: 250px;
+  width: 200px;
 }
 
 .blog p {
   text-align: left;
+}
+
+@media screen and (min-width: 780px) {
+  .blog-text-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .blog-text-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  }
+
+
 }
 /*# sourceMappingURL=Blog.css.map */

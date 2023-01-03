@@ -6,7 +6,7 @@ import react from '../assets/img/react.png'
 import mongo from '../assets/img/mongo.png'
 import mern from '../assets/img/mern.png'
 import cssb from '../assets/img/css-b.png'
-
+import food from '../assets/img/food.png'
 
 export const info = {
     firstName: "Martin",
@@ -88,7 +88,7 @@ export const info = {
             image:vehicle,
             live: "https://vehicleinformer.onrender.com/",
             source: "https://github.com/martin-velinov/VehicleInformer-NodeApi",
-            stack:"Node.js, Express.js, Mongodb"
+            stack:"Node.js, Express.js, MongoDB"
             
         },
         {
@@ -97,6 +97,14 @@ export const info = {
             live: "https://martin-velinov.github.io/Landing-page-HTML-CSS-JS/",
             source: "https://github.com/martin-velinov/Landing-page-HTML-CSS-JS",
             stack:"HTML, CSS, Javascript"
+            
+        },
+        {
+            title: "Food Recipe App",
+            image:food,
+            live: "https://babys-food.onrender.com/",
+            source: "https://github.com/martin-velinov/Food-Recipe-App",
+            stack:"Node.js, Express.js, React.js, MongoDB"
             
         }
         

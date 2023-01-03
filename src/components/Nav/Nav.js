@@ -38,14 +38,6 @@ export default function BasicMenu() {
         </Link>
       </li>
       <li>
-        <Link to="/resume">
-            <Button
-              id="basic-button">
-              Resume
-            </Button>
-        </Link>
-      </li>
-      <li>
         <Link to="/contact">
             <Button
               id="basic-button">
