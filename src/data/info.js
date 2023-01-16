@@ -7,6 +7,7 @@ import mongo from '../assets/img/mongo.png'
 import mern from '../assets/img/mern.png'
 import cssb from '../assets/img/css-b.png'
 import food from '../assets/img/food.png'
+import fitness from '../assets/img/fitness.png'
 
 export const info = {
     firstName: "Martin",
@@ -106,7 +107,16 @@ export const info = {
             source: "https://github.com/martin-velinov/Food-Recipe-App",
             stack:"Node.js, Express.js, React.js, MongoDB"
             
+        },
+        {
+            title: "Fitness Center",
+            image:fitness,
+            live: "https://maximus-fitness.netlify.app/",
+            source: "https://github.com/martin-velinov/React-Typescript",
+            stack:"React.js, TypeScript, Material UI"
+            
         }
+
         
         
     ],
