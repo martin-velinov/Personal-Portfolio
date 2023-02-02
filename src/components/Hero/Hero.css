@@ -44,4 +44,14 @@
   }
 }
 
+a{
+  text-decoration: none;
+  color:#333;
+}
+.btn-main a{
+  color:#f2f2f2;
+}
+.btn-main{
+  margin-right: 20px;
+}
 /*# sourceMappingURL=Hero.css.map */

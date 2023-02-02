@@ -51,14 +51,15 @@ li {
   display: grid;
   grid-template-columns: 1fr 1fr  ;
   grid-gap: 10px;
-  margin: 50px;
 }
 
 .skill {
   margin: 20px;
+  text-align: center;
 }
 
 .skill img {
+  margin-top: 20px;
   width: 75px;
   height: 70px;
 }
@@ -96,7 +97,7 @@ li {
   .skills {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr ;
-
+    margin: 50px;
   }
 }
 /*# sourceMappingURL=Skills.css.map */

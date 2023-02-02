@@ -13,7 +13,7 @@ const Hero = (props) => {
         </p>
         <p>{info.miniBio.p2}
       </p>
-        <button className='btn-primary'><Link to="/contact">Contact me</Link></button>
+        <button className='btn-primary btn-main'><Link to="/contact">Contact me</Link></button>
         <button className='btn-secondary'><Link to="/projects">See work</Link></button>
       </div>
       <div className="hero-image">

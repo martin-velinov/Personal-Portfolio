@@ -17,10 +17,7 @@ const Footer = () => {
                 <div className="footer-a">
                 <img src={logo} alt="logo" className='logo'/>
                     <div className="social">
-                    <li>
-                      <a href={insta}  target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
                     
-                    </li>
                   <li>
                     <a href={github}  target="_blank" rel="noopener noreferrer"><i className='fab fa-github'></i></a>
                   </li>

@@ -26,6 +26,9 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
+#basic-button{
+  color:#333;
+}
 
 @media screen and (min-width: 780px) {
   .navbar {
