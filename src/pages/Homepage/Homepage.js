@@ -4,7 +4,6 @@ import Skills from '../../components/Skills/Skills'
 import Services from '../../components/Services/Services'
 import Projects from '../../components/Projects/ProjectsComponent'
 import Banner from '../../components/Banner/Banner'
-import Form from '../../components/MultistepForm/Form'
 
 
 const Homepage = () => {
@@ -15,7 +14,6 @@ const Homepage = () => {
     <Services/>
     <Projects/>
     <Banner/>
-    <Form/>
   </div>
   )
 }

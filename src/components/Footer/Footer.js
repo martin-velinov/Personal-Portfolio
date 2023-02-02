@@ -1,9 +1,8 @@
 import React from 'react'
 import './Footer.css'
 import logo from '../../assets/img/logo.png'
-
+import {Link} from 'react-router-dom'
 const Footer = () => {
-  const insta= "https://www.instagram.com/m.velinov/"
   const github ="https://github.com/martin-velinov"
   const behance ="https://www.behance.net/martinvelinov"
   const linkedin = "https://www.linkedin.com/in/martin-velinov-796815162/"
@@ -35,22 +34,22 @@ const Footer = () => {
                 
                 <ul className='list'>
                 <h4>Sitemap</h4>
-                  <li>Home</li>
-                  <li>Skills</li>
-                  <li>Services</li>
-                  <li>Projects</li>
-                  <li>Contact me</li>
+                  <Link>Home</Link>
+                  <Link>Skills</Link>
+                  <Link>Services</Link>
+                  <Link>Projects</Link>
+                  <Link>Contact me</Link>
                 </ul>
               </div>
 
               <div className="footer-col">
-                <h4>About me</h4>
                 <ul className='list'>
-                  <li>Biography</li>
-                  <li>Achievements</li>
-                  <li>Certificates</li>
-                  <li>Work Experience</li>
-                  <li>Interests</li>
+                <h4>About me</h4>
+                  <Link>Biography</Link>
+                  <Link>Achievements</Link>
+                  <Link>Certificates</Link>
+                  <Link>Work Experience</Link>
+                  <Link>Interests</Link>
                 </ul>
               </div>
     
@@ -58,11 +57,11 @@ const Footer = () => {
                 
                 <ul className='list'>
                 <h4>Activities</h4>
-                  <li>Hackatons</li>
-                  <li>Events</li>
-                  <li>Giveaway</li>
-                  <li>Team-building</li>
-                  <li>Webinars</li>
+                  <Link>Hackatons</Link>
+                  <Link>Events</Link>
+                  <Link>Giveaway</Link>
+                  <Link>Team-building</Link>
+                  <Link>Webinars</Link>
                 </ul>
               </div>
             </div>

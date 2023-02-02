@@ -77,7 +77,7 @@ li {
 }
 
 .footer-col a:hover {
-  background-color: #ff6e40 !important;
+  font-weight: bold;
 }
 
 @media screen and (min-width: 780px) {
